@@ -1,6 +1,6 @@
 This is a test assignment given by Step By Tech. I have created a nice interaction with the 3D model on the web using NextJS, with React Three Fiber and React Three Drei.
 
-The assignment video is available [`here`][https://www.youtube.com/watch?v=C4K14ABpqMI&ab_channel=GhostVision] 
+The assignment video is available [here](https://www.youtube.com/watch?v=C4K14ABpqMI&ab_channel=GhostVision)
 
 ## Getting Started
 
