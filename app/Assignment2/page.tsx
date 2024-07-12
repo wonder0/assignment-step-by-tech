@@ -8,9 +8,9 @@ const Assignment2 = () => {
   const [playGame, setPlayGame] = useState(false);
   const { unityProvider, isLoaded, unload } = useUnityContext({
     loaderUrl: "build/Build/build.loader.js",
-    dataUrl: "build/Build/build.data.gz",
-    frameworkUrl: "build/Build/build.framework.js.gz",
-    codeUrl: "build/Build/build.wasm.gz",
+    dataUrl: "https://unity-asset-storage.s3.ap-south-1.amazonaws.com/build.data",
+    frameworkUrl: "build/Build/build.framework.js",
+    codeUrl: "build/Build/build.wasm",
   });
 
   const PlayUnityGame = () => {
@@ -43,7 +43,7 @@ const Assignment2 = () => {
               <Unity
                 style={{ visibility: isLoaded ? "visible" : "hidden" }}
                 unityProvider={unityProvider}
-                className="w-full h-[90vh] rounded-xl"
+                className="w-[100vw] h-[90vh] rounded-xl"
               />
             </div>
             <div className="flex flex-1 items-center justify-center p-2 text-2xl">
